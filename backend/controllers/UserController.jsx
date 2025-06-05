@@ -1,4 +1,4 @@
-const User = require("../models/User")
+const User = require("../models/User.jsx")
 
 const bcrypt = require("bcryptjs")
 const jwt = require("jsonwebtoken")
@@ -14,7 +14,7 @@ const genereteToken = (id) => {
 
 //Register user and sign in 
 const register = async (req, res) => {
-    res.send("Registro")
+    res.json({Registro:1})
 }
 
 module.exports = {
