@@ -20,7 +20,7 @@ const conn = async () => {
         throw error; // É importante propagar o erro para quem chamar a função
     }
 };
-
+conn();
 // Não chame conn() aqui se você está exportando a função
 // Em vez disso, chame onde você realmente precisa da conexão
 
