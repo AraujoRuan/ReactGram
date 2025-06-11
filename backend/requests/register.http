@@ -1,9 +1,10 @@
-POST http://localhost:5000/api/users/login
+GET http://localhost:5000/api/users/profile
 Content-Type: application/json
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDc3MjBiNjA5ZTYxMGY2NTM1ZGRmYSIsImlhdCI6MTc0OTY2NDk5MCwiZXhwIjoxNzUwMjY5NzkwfQ.sk5Q0if6UPG03A6_Wx3ia1Fdrd9ZIziUhqrhR4qaB5E
+ 
 {
     
     "email": "araujoruan4556@gmail.com",
-    "password": "Dragao123", 
-    "confirmPassword": "Dragao123"
+    "password": "Dragao123"
+    
 }
